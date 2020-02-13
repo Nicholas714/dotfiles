@@ -9,6 +9,10 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 # install zsh-autosuggestions
 # solarized theme in iTerm
 
+# preview to open continous scroll by default
+#cd ~/Library/Containers/com.apple.Preview/Data/Library/Preferences/
+#defaults write com.apple.Preview kPVPDFDefaultPageViewModeOption 1
+
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
 export PATH=/usr/local/opt/ruby/bin:$PATH
